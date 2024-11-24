@@ -40,32 +40,34 @@
     <h2 class="mt-5">Browser Information</h2>
     <p>This section displays key details about your browser and session. It includes your IP address, the browser user
         agent string, your language preferences, and a unique session identifier for your visit.</p>
-    <table class="table table-striped table-hover">
-        <thead>
-        <tr>
-            <th scope="col">Parameter</th>
-            <th scope="col">Value</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>IP Address</td>
-            <td>${ipAddress}</td>
-        </tr>
-        <tr>
-            <td>User Agent</td>
-            <td>${userAgent}</td>
-        </tr>
-        <tr>
-            <td>Language Preferences</td>
-            <td>${language}</td>
-        </tr>
-        <tr>
-            <td>Session ID</td>
-            <td>${sessionId}</td>
-        </tr>
-        </tbody>
-    </table>
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead>
+            <tr>
+                <th scope="col">Parameter</th>
+                <th scope="col">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>IP Address</td>
+                <td>${ipAddress}</td>
+            </tr>
+            <tr>
+                <td>User Agent</td>
+                <td>${userAgent}</td>
+            </tr>
+            <tr>
+                <td>Language Preferences</td>
+                <td>${language}</td>
+            </tr>
+            <tr>
+                <td>Session ID</td>
+                <td>${sessionId}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 
     <h2 id="headers" class="mt-5">HTTP Headers</h2>
     <p>HTTP headers provide important metadata about the request made to the server. They include details such as
