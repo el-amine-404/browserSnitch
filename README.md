@@ -22,7 +22,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/el-amine-404/browserSnitch">
-    <img src="./doc_images/icon.svg" alt="Logo" width="80" height="80">
+    <img src="doc/images/browser-snitch-logo.png" alt="Logo" width="80">
   </a>
   <h3 align="center">BrowserSnitch</h3>
     A Jakarta EE application that provides detailed insights about your browser and HTTP request
@@ -106,9 +106,43 @@ This website is created using the following tech stack:
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+          
+### Requirements
+
+For Requirements, you only need to have `docker` installed and configured on your system
+
+You can either build the image locally or pull it from docker hub
+
+### OPTION 1 - build local docker image
+
+```bash
+docker build -t browser-snitch .
+```
+
+run the container
+
+```bash
+docker run -it -p 8080:8080 browser-snitch 
+```
+
+The last command will expose the port 8080 on your host so open the browser and type the following url:
+```txt
+localhost:8080
+```
+
+### OPTION 2 - pull from docker hub
+
+```bash
+docker pull elamine404/browser-snitch:1.1
+```
+
+run the image
+
+```bash
+docker run -it -p 8080:8080 elamine404/browser-snitch:1.1 
+```
 
 
-available soon :D
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
