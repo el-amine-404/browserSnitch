@@ -88,6 +88,15 @@
                     <td>${header[headerName]}</td>
                 </tr>
             </c:forEach>
+<%--            another way of doing the thing--%>
+<%--            <c:forEach items="#{headerValues}" var="entry">--%>
+<%--                <tr>--%>
+<%--                    <td>${entry.key}</td>--%>
+<%--                    <c:forEach items="#{entry.value}" var="headerValue">--%>
+<%--                        <td>${headerValue}</td>--%>
+<%--                    </c:forEach>--%>
+<%--                </tr>--%>
+<%--            </c:forEach>--%>
             </tbody>
         </table>
     </div>
