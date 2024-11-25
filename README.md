@@ -57,7 +57,7 @@
 ## About The Project
 
 <div align="center">
-  <img src="./doc_images/integrity_checker.gif"
+  <img src="doc/images/browser-snitch.png"
         width="720"
         alt="ScreenShot of the website"
         title="Screnshot of the webiste">
@@ -94,7 +94,7 @@ This website is created using the following tech stack:
 <br>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,bootstrap,css,js" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap" />
     <br>
     <img src="https://skillicons.dev/icons?i=git,github,docker,maven" />
     <br>
