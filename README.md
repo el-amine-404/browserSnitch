@@ -1,0 +1,146 @@
+<a name="readme-top"></a>
+
+<!-- PROJECT SHIELDS -->
+
+
+<div align="center">
+  <!-- Contributors -->
+  <a href="https://github.com/el-amine-404/browserSnitch/graphs/contributors"><img src="https://img.shields.io/github/contributors/el-amine-404/browserSnitch.svg?style=for-the-badge"/></a>
+  <!-- Forks -->
+  <a href="https://github.com/el-amine-404/browserSnitch/network/members"><img src="https://img.shields.io/github/forks/el-amine-404/browserSnitch.svg?style=for-the-badge"></a>
+  <!-- Stars -->
+  <a href="https://github.com/el-amine-404/browserSnitch/stargazers"><img src="https://img.shields.io/github/stars/el-amine-404/browserSnitch.svg?style=for-the-badge"/></a>
+  <!-- issues -->
+  <a href="https://github.com/el-amine-404/browserSnitch/issues"><img src="https://img.shields.io/github/issues/el-amine-404/browserSnitch.svg?style=for-the-badge"/></a>
+  <!-- license -->
+  <a href="https://github.com/el-amine-404/browserSnitch/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/el-amine-404/browserSnitch.svg?style=for-the-badge"/></a>
+  <!-- linkedin -->
+  <a href="linkedin.com/in/amine-el-houjjaji"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"/></a>
+</div>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/el-amine-404/browserSnitch">
+    <img src="./doc_images/icon.svg" alt="Logo" width="80" height="80">
+  </a>
+  <h3 align="center">BrowserSnitch</h3>
+    A Jakarta EE application that provides detailed insights about your browser and HTTP request
+    <br />
+    <!-- <a href="https://github.com/el-amine-404/browserSnitch"><strong>Explore the docs »</strong></a>
+    <br /> -->
+    <br />
+    <a href="https://browser-snitch.onrender.com">View Live Demo</a>
+    ·
+    <a href="https://github.com/el-amine-404/browserSnitch/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/el-amine-404/browserSnitch/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+<!-- ## 📜️ - Table of Contents (ToC) <a id="ToC"></a> -->
+
+<details><summary>Table of Contents (ToC)</summary>
+
+- [About The Project](#about-the-project)
+    - [Built With](#built-with)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+</details>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+<div align="center">
+  <img src="./doc_images/integrity_checker.gif"
+        width="720"
+        alt="ScreenShot of the website"
+        title="Screnshot of the webiste">
+  <p><i>BrowserSnitch</i></p>
+</div>
+
+
+**BrowserSnitch** is a web application designed to display detailed information about the browser and HTTP request sent by the client.
+
+### **Features**
+- **Browser Information**: Displays your IP address, user agent, session ID, and language preferences.
+- **HTTP Headers**: Provides a detailed view of all HTTP headers sent in your request.
+- **Modern Design**: Responsive and clean interface built with Bootstrap.
+- **Docker Support**: Easily deploy using Docker containers.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+This website is created using the following tech stack:
+
+ **Dependency**  | **Version** | **Description**                                               |
+|-----------------|-------------|---------------------------------------------------------------|
+| `Servlet`       | `6.1.0`     | Jakarta Servlet API for handling HTTP requests and responses. |
+| `JSP`           | `4.0.0`     | Jakarta JSP API for rendering dynamic HTML content.           |
+| `JSTL`          | `3.0.0`     | JSTL API for JavaServer Pages for working with custom tags.   |
+| `Maven`         | `3.9.6`     | Build automation and dependency management.                   |
+| `Bootstrap`     | `5.3.3`     | Frontend framework for responsive UI.                         |
+| `Docker`        | `27.3.1`    | Containerization for deployment.                              |
+| `Apache Tomcat` | `11.0.1`     | Jakarta EE-compatible web container for deploy the WAR file.. |
+
+<br>
+<br>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,bootstrap,css,js" />
+    <br>
+    <img src="https://skillicons.dev/icons?i=git,github,docker,maven" />
+    <br>
+    <img src="https://skillicons.dev/icons?i=idea" />
+  </a>
+</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+
+available soon :D
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+BrowserSnitch is an open-source project and we welcome contributions from the community.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+
+- STEP - 1 - Fork the Project
+- STEP - 2 - Create your Feature Branch
+    ```sh
+    git checkout -b feature/AmazingFeature
+    ```
+- STEP - 3 - Commit your Changes
+    ```sh
+    git commit -m 'Add some AmazingFeature'
+    ```
+- STEP - 4 - Push to the Branch
+    ```sh
+    git push origin feature/AmazingFeature
+    ```
+- STEP - 5 - Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+available soon :D
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
