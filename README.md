@@ -60,8 +60,8 @@
   <img src="doc/images/browser-snitch.png"
         width="720"
         alt="ScreenShot of the website"
-        title="Screnshot of the webiste">
-  <p><i>BrowserSnitch</i></p>
+        title="Screenshot of the website">
+  <p><i>BrowserSnitch<br>(informations changed for privacy reasons ;D)</i></p>
 </div>
 
 
@@ -94,9 +94,11 @@ This website is created using the following tech stack:
 <br>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap" />
+    <img src="https://skillicons.dev/icons?i=java,maven" />
     <br>
-    <img src="https://skillicons.dev/icons?i=git,github,docker,maven" />
+    <img src="https://skillicons.dev/icons?i=git,github,docker" />
+    <br>
+    <img src="https://skillicons.dev/icons?i=html,css,bootstrap" />    
     <br>
     <img src="https://skillicons.dev/icons?i=idea" />
   </a>
