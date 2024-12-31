@@ -1,6 +1,8 @@
+<%--<%@ page contentType="text/html; charset=UTF-8" %>--%>
+<%@ page pageEncoding="utf-8" %>
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="${lang}" dir="${direction}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,12 +20,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap" rel="stylesheet">
+<%--    <style>--%>
+<%--        body {--%>
+<%--            font-family: 'Noto Sans Arabic', sans-serif;--%>
+<%--        }--%>
+<%--    </style>--%>
 </head>
 <body>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">BrowserSnitch</a>
+        <a class="navbar-brand" href="">${bundle['title']}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,10 +39,10 @@
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="">Home</a>
+                    <a class="nav-link active" aria-current="page" href="">${bundle['navigation.home']}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#headers">Headers</a>
+                    <a class="nav-link" href="#headers">${bundle['navigation.headers']}</a>
                 </li>
             </ul>
         </div>
@@ -43,13 +51,11 @@
 
 
 <div class="container my-5">
-    <h1 class="mb-4 text-center">Welcome to BrowserSnitch</h1>
-    <p class="text-center">Discover detailed insights about your browser and HTTP request. BrowserSnitch provides a
-        comprehensive overview of your browser's behavior and the data sent during your visit.</p>
+    <h1 class="mb-4 text-center">${bundle['welcome.message']}</h1>
+    <p class="text-center">${bundle['description']}</p>
 
-    <h2 class="mt-5">Browser Information</h2>
-    <p>This section displays key details about your browser and session. It includes your IP address, the browser user
-        agent string, your language preferences, and a unique session identifier for your visit.</p>
+    <h2 class="mt-5">${bundle['section.browser.info']}</h2>
+    <p>${bundle['section.browser.info.paragraph']}</p>
     <div class="table-responsive">
         <table class="table table-striped table-hover">
             <thead>
@@ -79,10 +85,8 @@
         </table>
     </div>
 
-    <h2 id="headers" class="mt-5">HTTP Headers</h2>
-    <p>HTTP headers provide important metadata about the request made to the server. They include details such as
-        content types, accepted languages, caching policies, and more. Below is a list of all headers sent with your
-        request.</p>
+    <h2 id="headers" class="mt-5">${bundle['section.headers']}</h2>
+    <p>${bundle['section.headers.paragraph']}</p>
     <div class="table-responsive">
         <table class="table table-striped table-hover">
             <thead>
@@ -115,8 +119,8 @@
 <!-- Footer -->
 <footer class="bg-dark text-light py-3 mt-auto">
     <div class="container text-center">
-        <p class="mb-0">&copy; 2024 BrowserSnitch. All rights reserved.</p>
-        <p class="mb-0">Made with <i class="bi bi-heart-fill text-danger"></i> using Jakarta EE and Bootstrap.</p>
+        <p class="mb-0">${bundle['footer.copyright']}</p>
+        <p class="mb-0">${bundle['footer.made.with']}</p>
     </div>
 </footer>
 

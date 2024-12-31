@@ -15,6 +15,17 @@ public class BrowserInfoServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+
+        // Get locale and resource bundle
+        Locale locale = request.getLocale();
+        String lang = locale.getLanguage();
+        ResourceBundle bundle = ResourceBundle.getBundle("i18n.messages", locale);
+
+        String direction = "ltr"; // Default to left-to-right
+        if (Arrays.asList("ar", "he", "fa", "ur").contains(lang)) {
+            direction = "rtl"; // Right-to-left languages
+        }
+
         List<String> headerNamesList = new ArrayList<>();
         List<String> headerValuesList = new ArrayList<>();
 
@@ -34,9 +45,12 @@ public class BrowserInfoServlet extends HttpServlet {
             headerNamesList.add(name);
             headerValuesList.add(value);
         }
-        
-        
 
+
+
+        request.setAttribute("bundle", bundle);
+        request.setAttribute("lang", lang);
+        request.setAttribute("direction", direction);
         request.setAttribute("userAgent", userAgent);
         request.setAttribute("ipAddress", ipAddress);
         request.setAttribute("language", language);
@@ -46,6 +60,8 @@ public class BrowserInfoServlet extends HttpServlet {
 
 
         request.getRequestDispatcher("/index.jsp").forward(request, response);
+
+
     }
 
     @Override
