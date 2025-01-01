@@ -22,7 +22,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/el-amine-404/browserSnitch">
-    <img src="doc/images/browser-snitch-logo.png" alt="Logo" width="80">
+    <img src="doc/images/browser-snitch-logo.svg" alt="Logo" width="80">
   </a>
   <h3 align="center">BrowserSnitch</h3>
     A Jakarta EE application that provides detailed insights about your browser and HTTP request
