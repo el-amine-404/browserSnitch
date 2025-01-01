@@ -72,6 +72,23 @@
 - **HTTP Headers**: Provides a detailed view of all HTTP headers sent in your request.
 - **Modern Design**: Responsive and clean interface built with Bootstrap.
 - **Docker Support**: Easily deploy using Docker containers.
+- **Internationalization (i18n) Support**: The website detects the user's preferred language from the browser and applies it automatically. Right-to-Left (RTL) and Left-to-Right (LTR) layouts are automatically handled for better usability.
+
+
+Currently, the website supports 5 languages:
+- English  (default)
+- Arabic
+- French
+- Spanish
+- German
+
+<div align="center">
+  <img src="doc/images/browser-snitch-i18n.png"
+        width="720"
+        alt="supported languages"
+        title="supported languages">
+  <p><i>BrowserSnitch<br>(supported languages)</i></p>
+</div>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
